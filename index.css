@@ -36,10 +36,10 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
-.worstcar{
+/* .worstcar{
   display: block;
   margin-left: 100px;
-  margin-right: 0px;
+  margin-right: 0px;  */
 
 }
 
@@ -70,4 +70,34 @@ img{
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+.button{
+  background-color:  #2196F3;
+   border: none;
+   color: black;
+   padding: 15px 25px;
+   text-align: center;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+.col{
+  font-size: 40px;
+
+}
+.worstcar{
+  height: 85%;
+  width: 100%;
+}
+.bettercar{
+  height: 190px;
+  width: 290px;
+}
+.bestcar{
+  height
 }
