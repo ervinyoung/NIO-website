@@ -5,7 +5,7 @@
 body {
   background-image:url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Ec7hwrKKxik52rser/4k-white-clean-bokeh-background-animation-seamless-loop_4egg2cd6fe__F0000.png');
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
 }
 
@@ -21,10 +21,11 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+
 }
 
 li a:hover {
@@ -46,7 +47,7 @@ img{
 .products{
   padding:10px;
   color:black;
-  background-color: rgb(77, 150, 61,);
+  /* background-color: rgb(77, 150, 61,); */
   /* opacity: .5; */
 }
 
@@ -99,5 +100,23 @@ img{
   width: 290px;
 }
 .bestcar{
-  height
+  height:85%;
+  width:100%;
+
+}
+
+ul li {
+  border-radius: 20px;
+}
+
+
+
+div.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.container {
+  padding: 10px;
 }
