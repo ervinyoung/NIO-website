@@ -1,5 +1,5 @@
 * {
-  font-family: 'Bungee Inline', sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 
 body {
@@ -90,17 +90,19 @@ img{
 .col{
   font-size: 40px;
 
+
 }
-.worstcar{
-  height: 85%;
+.worstcarimg{
+  height:190px;
   width: 100%;
+
 }
-.bettercar{
+.bettercarimg{
   height: 190px;
   width: 290px;
 }
-.bestcar{
-  height:85%;
+.bestcarimg{
+  height:190px;
   width:100%;
 
 }
@@ -111,12 +113,31 @@ ul li {
 
 
 
-div.polaroid {
-  width: 250px;
+div.worstcar {
+  width: 290px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.bettercar {
+  width: 290px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.bestcar {
+  width: 290px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-div.container {
+div.containerCarPic {
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
 }
