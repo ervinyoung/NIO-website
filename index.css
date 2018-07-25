@@ -154,7 +154,7 @@ div.containerCarPic {
 
 }
 /* #NIOEVEbig{
-  margin
+  margin:
 } */
 .largePicName{
   position:absolute;
@@ -162,7 +162,7 @@ div.containerCarPic {
   margin-left: 298px;
   margin-top: 105px;
 
-}      
+}
 
 #secondwhitepane{
   margin-top: 100px;
@@ -170,4 +170,50 @@ div.containerCarPic {
 
 .caro-bkgrnd {
   background-color: white;
+}
+
+.gallery{
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 75px;
+
+}
+
+#NIOEVEopendoor{
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 900px;
+  max-height: 500px;
+
+}
+
+#sidebyside{
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* #secondwhitepane{
+  margin-top: 800px;
+} */
+.contactmenuitem{
+  padding-left: auto;
+  margin-left: auto;
+  margin-right: 20px;
+  position: relative;
+  max-padding-right: 100px;
+}
+
+.learnMore1{
+  position:absolute;
+  margin-right: auto;
+  margin-left: 1100px;
+  margin-top: 205px;
+}
+
+.largePicName1{
+  position:absolute;
+  margin-right: auto;
+  margin-left: 1098px;
+  margin-top: 135px;
 }
