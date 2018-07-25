@@ -110,7 +110,9 @@ img{
 }
 
 ul li {
-  border-radius: 20px;
+  /* border-radius: 100px; */
+  /* background-color:rgb(114, 133, 163); */
+
 }
 
 
@@ -142,4 +144,30 @@ div.containerCarPic {
   margin-left: auto;
   margin-right: auto;
   width: 150px;
+}
+
+.learnMore {
+  margin-right: auto;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 150px;
+
+}
+/* #NIOEVEbig{
+  margin
+} */
+.largePicName{
+  position:absolute;
+  margin-right: auto;
+  margin-left: 298px;
+  margin-top: 105px;
+
+}      
+
+#secondwhitepane{
+  margin-top: 100px;
+}
+
+.caro-bkgrnd {
+  background-color: white;
 }
