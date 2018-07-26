@@ -5,59 +5,72 @@
 body {
   background-image:url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Ec7hwrKKxik52rser/4k-white-clean-bokeh-background-animation-seamless-loop_4egg2cd6fe__F0000.png');
   background-position: center;
-  /* background-repeat: no-repeat; */
   background-size: cover;
 }
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #383838;
-    color: white;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    color: white;
+#niologotop {
+  float: left;
+  height: 80%;
+  width: 13%;
+  margin-top: 8px;
 
 }
+/* ~~ Top Navigation Bar ~~ */
 
-li a:hover {
-    /* background-color: ; */
+#navigation-container {
+  height: 70px;
 }
 
-img{
+.navigation-bar {
+  background-color: #383838;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+
+.navigation-bar img {
+float:left;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+img {
   display:block;
   margin-left: auto;
   margin-right: auto;
 }
-/* .worstcar{
-  display: block;
-  margin-left: 100px;
-  margin-right: 0px;  */
 
-}
-
-/* .products{
-  padding:10px;
-  color:white;
-  /* background-color: rgb(77, 150, 61,); */
-  /* opacity: .5; */
-} */
-
-.products1{
+.products1 {
   padding:1px;
   color:black;
-   /* background-color: #4d963d; */
-  /* opacity:.5; */
 }
 
 .grid-container {
@@ -75,47 +88,23 @@ img{
   text-align: center;
 }
 
-/* .button{
-  background-color:  #2196F3;
-   border: none;
-   color: black;
-   padding: 15px 25px;
-   text-align: center;
-   font-size: 16px;
-   cursor: pointer;
-}
-
-.button:hover {
-    background-color: green;
-} */
-
-.col{
+.col {
   font-size: 40px;
-
-
 }
-.worstcarimg{
+.worstcarimg {
   height:190px;
   width: 100%;
-
 }
-.bettercarimg{
+
+.bettercarimg {
   height: 190px;
   width: 290px;
 }
-.bestcarimg{
+
+.bestcarimg {
   height:190px;
   width:100%;
-
 }
-
-ul li {
-  /* border-radius: 100px; */
-  /* background-color:rgb(114, 133, 163); */
-
-}
-
-
 
 div.worstcar {
   width: 290px;
@@ -124,6 +113,7 @@ div.worstcar {
   margin-left: auto;
   margin-right: auto;
 }
+
 div.bettercar {
   width: 290px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -131,6 +121,7 @@ div.bettercar {
   margin-left: auto;
   margin-right: auto;
 }
+
 div.bestcar {
   width: 290px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -151,17 +142,13 @@ div.containerCarPic {
   margin-left: 300px;
   position: absolute;
   margin-top: 150px;
-
 }
-/* #NIOEVEbig{
-  margin:
-} */
-.largePicName{
+
+.largePicName {
   position:absolute;
   margin-right: auto;
   margin-left: 298px;
   margin-top: 105px;
-
 }
 
 #secondwhitepane{
@@ -172,14 +159,54 @@ div.containerCarPic {
   background-color: white;
 }
 
-.gallery{
+.gallery {
   margin-left: 200px;
   margin-right: auto;
   margin-top: 75px;
+}
+.first-holder {
+  display: flex;
+}
+.img-box, .info-box {
+  width:50vw;
+  height:50vw;
+}
+.img-box {
+  background-color:white;
+}
+.info-box {
+  color: white;
+  line-height: 40px;
+  background-color:black;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
 
 }
 
-#NIOEVEopendoor{
+.imgBoximg{
+   /* position:relative; (or absolute, it depends on your needs)
+   top:50%;
+   left:50%;
+   transform:translate(-50%, -50%); */
+}
+
+.infoBoxText{
+  text-align:center;
+  font-size: 20px;
+  text-align: left;
+}
+#es8Rear {
+  width: 100%;
+  height: 50%;
+}
+#NIOEVEbig {
+  display: block;
+  margin: auto;
+}
+
+#NIOEVEopendoor {
   display: block;
   width: auto;
   height: auto;
@@ -188,15 +215,7 @@ div.containerCarPic {
 
 }
 
-#sidebyside{
-  overflow: hidden;
-  display: inline-block;
-}
-
-/* #secondwhitepane{
-  margin-top: 800px;
-} */
-.contactmenuitem{
+.contactmenuitem {
   padding-left: auto;
   margin-left: auto;
   margin-right: 20px;
@@ -204,16 +223,49 @@ div.containerCarPic {
   max-padding-right: 100px;
 }
 
-.learnMore1{
+.learnMore1 {
   position:absolute;
   margin-right: auto;
   margin-left: 1100px;
   margin-top: 205px;
 }
 
-.largePicName1{
+.largePicName1 {
   position:absolute;
   margin-right: auto;
   margin-left: 1098px;
   margin-top: 135px;
+}
+
+.YTproductpage {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.horixontal-panel .field-item1 .left-item {
+  display: inline-block;
+}
+
+.field-item1 {
+  display: grid;
+  grid-template-columns: 50vw 50vw ;
+  grid-template-rows: 565px 565px;
+  grid-template-areas: "leftItem rightItem";
+}
+
+.leftItem{
+  width: 50vw;
+  height: 565px;
+  background-color: black;
+  grid-area: leftItem;
+  margin-right: 0px;
+}
+
+.rightItem {
+  width: 50vw;
+  height: ;
+  background-color: white;
+  grid-area: rightItem;
+  padding-left: 0px;
 }
