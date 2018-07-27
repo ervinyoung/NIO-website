@@ -23,7 +23,7 @@
 }
 
 .navigation-bar {
-  background-color: #737777;
+  background-color: white;
   height: 70px;
   width: 100%;
   text-align:center;
@@ -51,7 +51,7 @@ float:left;
 }
 
 .navigation-bar li a {
-  color: white;
+  color: black;
   font-size: 19px;
   text-decoration: none;
   line-height: 70px;
@@ -211,8 +211,8 @@ div.containerCarPic {
 
 .infoBoxText{
   text-align: left;
-  font-size: 3vw;
-  line-height: 1.3;
+  font-size: 2.3vw;
+  line-height: 1.8;
 }
 #es8Rear {
   width: 100%;
@@ -254,7 +254,19 @@ div.containerCarPic {
   margin-top: 135px;
 }
 
-.YTproductpage {
+#YT1 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#YT2 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#YT3 {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -379,7 +391,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #a9d4fc;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -388,11 +400,15 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #69b1f4;
 }
 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+#contactFormtext{
+  text-align: center;
 }
